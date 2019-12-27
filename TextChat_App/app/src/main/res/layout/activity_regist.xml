@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="@mipmap/tex_launcher_foreground"
+    tools:context=".RegistActivity">
+
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:background="@drawable/a"
+        android:gravity="center"
+        android:text="@string/register_your_email_id"
+        android:textColor="#111"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/rg_btn"
+        android:layout_width="142dp"
+        android:layout_height="52dp"
+        android:text="@string/registration1"
+        android:onClick="show"
+        android:layout_gravity="center"
+        android:background="@drawable/a"
+        android:layout_marginTop="50sp"
+        />
+
+    <Button
+        android:id="@+id/lg_btn"
+        android:layout_width="136dp"
+        android:layout_height="52dp"
+        android:text="@string/login1"
+        android:onClick="show"
+        android:layout_gravity="center"
+        android:background="@drawable/a"
+        android:layout_marginTop="50sp"/>
+
+</LinearLayout>

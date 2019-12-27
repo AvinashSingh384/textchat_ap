@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "149381272624",
+    "firebase_url": "https://textchatapp-19418.firebaseio.com",
+    "project_id": "textchatapp-19418",
+    "storage_bucket": "textchatapp-19418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149381272624:android:3b7db441e3a5f3996289f5",
+        "android_client_info": {
+          "package_name": "com.example.textchat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149381272624-m512ald35codokta04ure9c8hgp1jclh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.textchat_app",
+            "certificate_hash": "bf5619bcf201ad9c59c03cd05f54a3d623cf909b"
+          }
+        },
+        {
+          "client_id": "149381272624-32fcnbg6j3cslmopjsjaql4vv5bm1cmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH6dN4kbuqFRFYIVTViw0V2xnC7WWsep0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149381272624-32fcnbg6j3cslmopjsjaql4vv5bm1cmt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

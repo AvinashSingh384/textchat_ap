@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TextChat_App</string>
+    <string name="text_chat">text chat</string>
+    <string name="email_id1">Email ID :-</string>
+    <string name="password1">Password :-</string>
+    <string name="password">Password :-</string>
+    <string name="email_id">Email ID :-</string>
+    <string name="registration1">Registration</string>
+    <string name="login1">Login</string>
+    <string name="register_your_email_id">Register your Email Id</string>
+    <string name="Login">Login</string>
+    <string name="enter_message">message</string>
+    <string name="send">send</string>
+    <string name="start_textchat">Start TextChat</string>
+</resources>

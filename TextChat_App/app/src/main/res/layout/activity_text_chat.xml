@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical"
+    tools:context=".TextChatActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_textchat"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#333"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="322dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20sp" />
+
+    <LinearLayout
+        android:layout_width="324dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:hint="@string/enter_message" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5sp"
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:text="@string/send"
+            android:layout_marginTop="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
